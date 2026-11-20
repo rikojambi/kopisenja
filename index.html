@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kopi Senja - Nikmati Kehangatan di Setiap Tegukan</title>
+  <meta name="description" content="Kedai Kopi Senja menyajikan kopi pilihan nusantara dengan suasana hangat, tenang, dan bersahabat. Temukan menu favoritmu di sini.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;0,900;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#hero" class="logo">
+        <span class="logo-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+            <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+            <line x1="6" y1="1" x2="6" y2="4"></line>
+            <line x1="10" y1="1" x2="10" y2="4"></line>
+            <line x1="14" y1="1" x2="14" y2="4"></line>
+          </svg>
+        </span>
+        <span class="logo-text">Kopi <span>Senja</span></span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active">Beranda</a></li>
+          <li><a href="#tentang" class="nav-link">Tentang Kami</a></li>
+          <li><a href="#menu" class="nav-link">Menu Kopi</a></li>
+          <li><a href="#kontak" class="nav-link">Kontak</a></li>
+        </ul>
+        <a href="#kontak" class="btn btn-primary nav-cta">Pesan Meja</a>
+      </nav>
+
+      <!-- Hamburger Toggle Button -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Buka navigasi">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="hero-bg-overlay"></div>
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            Kedai Kopi Bernuansa Hangat & Tenang
+          </div>
+          <h1 class="hero-title">
+            Temani Waktu Senjamu dengan <span class="highlight">Secangkir Cerita</span>
+          </h1>
+          <p class="hero-description">
+            Dari biji kopi pilihan nusantara yang dipanggang dengan penuh dedikasi. Hadirkan kehangatan rasa dan suasana nyaman untuk melepas lelah di pengujung hari.
+          </p>
+          <div class="hero-actions">
+            <a href="#menu" class="btn btn-primary">Lihat Menu Kopi</a>
+            <a href="#tentang" class="btn btn-secondary">Cerita Kami</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Biji Kopi Lokal</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">20+</span>
+              <span class="stat-label">Varian Menu</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">4.9 ★</span>
+              <span class="stat-label">Kepuasan Pelanggan</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-card-image">
+            <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80" alt="Suasana hangat kedai Kopi Senja" loading="lazy">
+            <div class="hero-floating-card">
+              <div class="floating-icon">☕</div>
+              <div>
+                <strong>Kopi Susu Senja</strong>
+                <p>Favorit Pengunjung #1</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 1: TENTANG KAMI -->
+    <section class="section section-about" id="tentang">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Mengenal Lebih Dekat</span>
+          <h2 class="section-title">Tentang Kopi Senja</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">
+            Kisah kehangatan rasa yang berawal dari kecintaan kami terhadap kopi asli Nusantara dan momen senja yang menenangkan.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-images">
+            <div class="about-img-main">
+              <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=800&q=80" alt="Proses menyeduh kopi manual di Kopi Senja" loading="lazy">
+            </div>
+            <div class="about-img-accent">
+              <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80" alt="Secangkir kopi hangat" loading="lazy">
+            </div>
+            <div class="experience-badge">
+              <span class="exp-year">Sejak</span>
+              <span class="exp-number">2019</span>
+              <span class="exp-text">Melayani dengan Hati</span>
+            </div>
+          </div>
+
+          <div class="about-content">
+            <h3>Tempat Bertemu, Bercerita, dan Bernapas Sejenak</h3>
+            <p>
+              <strong>Kopi Senja</strong> didirikan dengan satu filosofi sederhana: waktu senja adalah momen terbaik untuk merenung, berbincang santai, dan menikmati jeda dari hiruk-pikuk rutinitas harian.
+            </p>
+            <p>
+              Kami mengolah biji kopi berkualitas tinggi dari petani lokal di Aceh Gayo, Toraja, hingga Kintamani Bali. Setiap cangkir diracik langsung oleh barista berpengalaman untuk menghadirkan cita rasa yang seimbang, aroma yang memikat, dan kehangatan yang tinggal di hati.
+            </p>
+
+            <div class="about-features">
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"/>
+                    <path d="M12 6v6l4 2"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Biji Kopi Segar Pilihan</h4>
+                  <p>Biji kopi nusantara yang di-roasting mingguan demi kesegaran rasa optimal.</p>
+                </div>
+              </div>
+
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                    <polyline points="9 22 9 12 15 12 15 22"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Suasana Tenang & Hangat</h4>
+                  <p>Desain interior kayu dan penerangan temaram yang cocok untuk WFC atau santai.</p>
+                </div>
+              </div>
+
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Diseduh Penuh Cinta</h4>
+                  <p>Dedikasi barista kami memastikan setiap cangkir kopi tersaji dengan konsisten sempurna.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: MENU KOPI -->
+    <section class="section section-menu" id="menu">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Pilihan Istimewa</span>
+          <h2 class="section-title">Menu Kopi & Kudapan</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">
+            Pilihan racikan kopi otentik dan kudapan lezat untuk melengkapi momen manismu di Kopi Senja.
+          </p>
+        </div>
+
+        <!-- Menu Filter Tabs -->
+        <div class="menu-tabs">
+          <button class="menu-tab-btn active" data-category="all">Semua Menu</button>
+          <button class="menu-tab-btn" data-category="signature">Signature Senja</button>
+          <button class="menu-tab-btn" data-category="espresso">Espresso Based</button>
+          <button class="menu-tab-btn" data-category="manual">Manual Brew</button>
+          <button class="menu-tab-btn" data-category="snack">Kudapan & Non-Kopi</button>
+        </div>
+
+        <!-- Menu Grid -->
+        <div class="menu-grid" id="menu-grid">
+          
+          <!-- Item 1 -->
+          <article class="menu-card" data-category="signature">
+            <div class="menu-card-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=600&q=80" alt="Es Kopi Susu Senja" loading="lazy">
+              <span class="badge-tag">Best Seller</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h3 class="menu-title">Kopi Susu Senja</h3>
+                <span class="menu-price">Rp 24.000</span>
+              </div>
+              <p class="menu-desc">Espresso ganda berpadu susu segar gurih dan manis lembut gula aren organik murni.</p>
+              <div class="menu-card-footer">
+                <span class="menu-meta">Dingin / Hangat</span>
+                <button class="btn-order" onclick="orderItem('Kopi Susu Senja', '24.000')">Pesan Sekarang</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 2 -->
+          <article class="menu-card" data-category="signature">
+            <div class="menu-card-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=600&q=80" alt="Senja Caramel Macchiato" loading="lazy">
+              <span class="badge-tag">Favorit</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h3 class="menu-title">Caramel Senja Macchiato</h3>
+                <span class="menu-price">Rp 28.000</span>
+              </div>
+              <p class="menu-desc">Kombinasi vanilla syrup, steamed milk lembut, espresso mantap dengan siraman saus karamel legit.</p>
+              <div class="menu-card-footer">
+                <span class="menu-meta">Dingin / Hangat</span>
+                <button class="btn-order" onclick="orderItem('Caramel Senja Macchiato', '28.000')">Pesan Sekarang</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 3 -->
+          <article class="menu-card" data-category="espresso">
+            <div class="menu-card-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=600&q=80" alt="Cappuccino Klasik" loading="lazy">
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h3 class="menu-title">Cappuccino Klasik</h3>
+                <span class="menu-price">Rp 26.000</span>
+              </div>
+              <p class="menu-desc">Keseimbangan sempurna antara espresso pekat, susu hangat, dan lapisan busa microfoam lembut.</p>
+              <div class="menu-card-footer">
+                <span class="menu-meta">Hangat</span>
+                <button class="btn-order" onclick="orderItem('Cappuccino Klasik', '26.000')">Pesan Sekarang</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 4 -->
+          <article class="menu-card" data-category="espresso">
+            <div class="menu-card-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80" alt="Americano Senja" loading="lazy">
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h3 class="menu-title">Americano Senja</h3>
+                <span class="menu-price">Rp 22.000</span>
+              </div>
+              <p class="menu-desc">Ekstraksi espresso murni ditambah air mineral, menonjolkan notes floral dan sentuhan coklat gelap.</p>
+              <div class="menu-card-footer">
+                <span class="menu-meta">Dingin / Hangat</span>
+                <button class="btn-order" onclick="orderItem('Americano Senja', '22.000')">Pesan Sekarang</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 5 -->
+          <article class="menu-card" data-category="manual">
+            <div class="menu-card-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=600&q=80" alt="V60 Single Origin" loading="lazy">
+              <span class="badge-tag">Pilihan Barista</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h3 class="menu-title">V60 Pour Over</h3>
+                <span class="menu-price">Rp 30.000</span>
+              </div>
+              <p class="menu-desc">Seduhan manual filter V60 dengan biji Gayo Wine, Flores Bajawa, atau Mandheling yang aromatik.</p>
+              <div class="menu-card-footer">
+                <span class="menu-meta">Single Origin</span>
+                <button class="btn-order" onclick="orderItem('V60 Pour Over', '30.000')">Pesan Sekarang</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 6 -->
+          <article class="menu-card" data-category="manual">
+            <div class="menu-card-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=600&q=80" alt="Cold Brew Sunset" loading="lazy">
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h3 class="menu-title">Cold Brew Sunset</h3>
+                <span class="menu-price">Rp 28.000</span>
+              </div>
+              <p class="menu-desc">Ekstraksi dingin selama 16 jam, menghasilkan kopi beraroma buah, keasaman rendah, dan segar.</p>
+              <div class="menu-card-footer">
+                <span class="menu-meta">Dingin Botol 250ml</span>
+                <button class="btn-order" onclick="orderItem('Cold Brew Sunset', '28.000')">Pesan Sekarang</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 7 -->
+          <article class="menu-card" data-category="snack">
+            <div class="menu-card-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1536256263959-770b48d82b0a?auto=format&fit=crop&w=600&q=80" alt="Matcha Latte Cream" loading="lazy">
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h3 class="menu-title">Matcha Latte Cream</h3>
+                <span class="menu-price">Rp 27.000</span>
+              </div>
+              <p class="menu-desc">Bubuk matcha murni dari Uji Jepang dipadukan susu creamy lembut bagi penikmat non-kopi.</p>
+              <div class="menu-card-footer">
+                <span class="menu-meta">Dingin / Hangat</span>
+                <button class="btn-order" onclick="orderItem('Matcha Latte Cream', '27.000')">Pesan Sekarang</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 8 -->
+          <article class="menu-card" data-category="snack">
+            <div class="menu-card-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80" alt="Croissant Mentega Gurih" loading="lazy">
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h3 class="menu-title">Croissant Butter</h3>
+                <span class="menu-price">Rp 22.000</span>
+              </div>
+              <p class="menu-desc">Pastry renyah berlapis dengan aroma mentega Perancis otentik, teman ideal kopi hangatmu.</p>
+              <div class="menu-card-footer">
+                <span class="menu-meta">Panggang Hangat</span>
+                <button class="btn-order" onclick="orderItem('Croissant Butter', '22.000')">Pesan Sekarang</button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: KONTAK -->
+    <section class="section section-contact" id="kontak">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Kunjungi & Hubungi Kami</span>
+          <h2 class="section-title">Kontak & Lokasi</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">
+            Pintu kedai kami selalu terbuka hangat menyambutmu. Hubungi kami untuk reservasi atau sekadar bertanya.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Info Details Box -->
+          <div class="contact-info-wrapper">
+            <div class="status-indicator" id="status-indicator">
+              <span class="status-dot"></span>
+              <span class="status-text" id="status-text">Memeriksa Jam Operasional...</span>
+            </div>
+
+            <h3 class="contact-heading">Informasi Kedai</h3>
+            <p class="contact-subheading">Silakan kunjungi kedai kami atau hubungi nomor tertera untuk pemesanan langsung maupun reservasi tempat.</p>
+
+            <div class="info-cards">
+              <!-- ALAMAT -->
+              <div class="info-card">
+                <div class="info-card-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="info-card-content">
+                  <h4>Alamat Kedai</h4>
+                  <p>Jl. Senja Teduh No. 24, RT 03 / RW 07, Kebayoran Baru, Jakarta Selatan, DKI Jakarta 12180</p>
+                  <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="info-link">
+                    Petunjuk Arah Google Maps &rarr;
+                  </a>
+                </div>
+              </div>
+
+              <!-- JAM BUKA -->
+              <div class="info-card">
+                <div class="info-card-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                </div>
+                <div class="info-card-content">
+                  <h4>Jam Buka</h4>
+                  <ul class="hours-list">
+                    <li>
+                      <span class="day">Senin - Jumat</span>
+                      <span class="time">08.00 - 22.00 WIB</span>
+                    </li>
+                    <li>
+                      <span class="day">Sabtu - Minggu</span>
+                      <span class="time">07.30 - 23.00 WIB</span>
+                    </li>
+                  </ul>
+                  <small class="note-text">*Waktu terbaik menikmati senja: 16.30 - 18.30 WIB</small>
+                </div>
+              </div>
+
+              <!-- NOMOR TELEPON -->
+              <div class="info-card">
+                <div class="info-card-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div class="info-card-content">
+                  <h4>Nomor Telepon & WhatsApp</h4>
+                  <p class="phone-number">
+                    <a href="tel:+6281234567890">+62 812-3456-7890</a>
+                  </p>
+                  <p class="phone-number">
+                    <a href="tel:+62217654321">(021) 7654-321</a> (Hotline Kedai)
+                  </p>
+                  <a href="https://wa.me/6281234567890?text=Halo%20Kopi%20Senja,%20saya%20ingin%20bertanya" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                      <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                    </svg>
+                    Chat via WhatsApp
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Form / Reservasi & Pesan -->
+          <div class="contact-form-wrapper">
+            <div class="form-header">
+              <h3>Kirim Pesan / Reservasi</h3>
+              <p>Punya pertanyaan khusus atau ingin reservasi meja senja terbaik? Tinggalkan pesanmu di bawah.</p>
+            </div>
+
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="form-name">Nama Lengkap</label>
+                <input type="text" id="form-name" name="name" placeholder="Misal: Budi Santoso" required>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="form-phone">Nomor Telepon / WhatsApp</label>
+                  <input type="tel" id="form-phone" name="phone" placeholder="0812xxxxxxxx" required>
+                </div>
+                <div class="form-group">
+                  <label for="form-service">Keperluan</label>
+                  <select id="form-service" name="service">
+                    <option value="Tanya Menu & Pesanan">Tanya Menu / Takeaway</option>
+                    <option value="Reservasi Meja">Reservasi Meja</option>
+                    <option value="Acara / Komunitas">Sewa Ruang / Event</option>
+                    <option value="Lainnya">Lainnya</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message">Pesan Anda</label>
+                <textarea id="form-message" name="message" rows="4" placeholder="Tuliskan detail pesanan, jumlah tamu, atau pesan Anda di sini..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">
+                <span>Kirim Pesan Sekarang</span>
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+
+            <div id="form-feedback" class="form-feedback" style="display: none;"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-col brand-col">
+        <div class="logo">
+          <span class="logo-icon">☕</span>
+          <span class="logo-text">Kopi <span>Senja</span></span>
+        </div>
+        <p class="footer-desc">
+          Menyajikan secangkir kehangatan rasa kopi nusantara dan atmosfer tenang pelepas lelah sejak 2019.
+        </p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          </a>
+          <a href="#" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.98-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.24 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+          </a>
+          <a href="https://wa.me/6281234567890" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigasi</h4>
+        <ul class="footer-links">
+          <li><a href="#hero">Beranda</a></li>
+          <li><a href="#tentang">Tentang Kami</a></li>
+          <li><a href="#menu">Menu Kopi</a></li>
+          <li><a href="#kontak">Kontak & Lokasi</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Jam Operasional</h4>
+        <p class="footer-text">Senin - Jumat: 08.00 - 22.00</p>
+        <p class="footer-text">Sabtu - Minggu: 07.30 - 23.00</p>
+        <p class="footer-text font-accent">Waktu Senja Terbaik: 16.30 - 18.30 WIB</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Kontak Cepat</h4>
+        <p class="footer-text">📞 +62 812-3456-7890</p>
+        <p class="footer-text">📍 Jl. Senja Teduh No. 24, Jakarta Selatan</p>
+        <p class="footer-text">✉️ halo@kopisenja.id</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p>&copy; 2026 Kopi Senja. Seluruh hak cipta dilindungi undang-undang.</p>
+        <p>Dirancang dengan cita rasa hangat & kehangatan lokal.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
